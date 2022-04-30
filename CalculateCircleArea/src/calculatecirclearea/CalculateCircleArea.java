@@ -19,15 +19,14 @@ public class CalculateCircleArea {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        int r = 10;
-        double areaOfTheCircle, pi = 3.14, circumferencOfTheCircle, degree;
+        double r,areaOfTheCircle, pi = 3.14, circumferencOfTheCircle, degree;
         Scanner input = new Scanner(System.in);
 
         System.out.println("Lütfen yarıçap giriniz : ");
-        r = input.nextInt();
+        r = input.nextDouble();
 
         System.out.println("Lütfen açı derecesi giriniz : ");
-        degree = input.nextInt();
+        degree = input.nextDouble();
 
         System.out.println();
         
